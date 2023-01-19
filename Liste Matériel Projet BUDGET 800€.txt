@@ -1,0 +1,21 @@
+Liste Des composants nécessaires : 
+
+- 2 Cartes Raspberry pi
+
+- 1 Émetteur/Récepteur Rfxcom 433Mhz
+
+- 1 Émetteur/Récepteur Zwave
+
+- 1 Émetteur/Recepteur Enocean
+
+- 1 Tablette Android
+
+- Des capteurs sans fil (minimum : 3 Températures/humidité, Pluie, Vent, Détecteur mouvement/luminosité)
+
+- Des actionneurs sans fil (minimum:3 modules tout/rien 230V)
+
+- Routeur-switch wifi
+
+-Et evidemmment la documentation qui ira avec ces differents composants.
+
+-Nous pourions aussi avoir besoin de materiel de soudure et d'oscilloscopes.
