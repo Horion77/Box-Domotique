@@ -1,0 +1,22 @@
+	Disposition des diagrammes :
+
+Rayane :
+
+- Diagramme de Cas d'Utilisation
+- Diagramme d'Objet
+- Diagramme d'Activité
+- Diagramme de Gant
+
+Alan : 
+
+- Diagramme de Composants
+- Diagramme de Déploiement
+- Diagramme de Collaboration
+
+Ousmane : 
+
+- Diagramme de Classe
+- Diagramme de Séquence
+- Diagramme de d'Etats-transitions
+
+
