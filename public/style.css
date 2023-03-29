@@ -1,0 +1,215 @@
+body {
+  background-image: url("/public/img/techandall_wallpaper_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/*header {
+  
+  top: 0;
+  width: 100px;
+  transform: translateX(0%);
+  font-family: 'Tilt Neon', sans-serif; 
+  z-index: 1; /* Ajouter une valeur de z-index pour que le header soit affiché par-dessus les autres éléments */
+
+
+nav {
+  
+  width: 100px;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  left: 0;
+  justify-content: center; /* centre les éléments horizontalement */
+  align-items: center; /* centre les éléments verticalement */
+}
+
+@media screen and (max-width: 768px) { /* Ajouter cette règle pour les écrans plus petits */
+  nav {
+    flex-direction: row; /* changer la direction en ligne */
+    justify-content: center; /*centre elements horiz */
+    align-items: center; /* centrer les éléments verti */
+    height: auto; 
+    width: 100%; 
+  }
+
+  nav span {
+    margin-right: 10px; /* ajouter une marge droite pour séparer les icônes */
+  }
+}
+
+nav .material-symbols-outlined:hover {
+  transform: scale(1.5);
+}
+
+nav .material-symbols-outlined {
+  transition: transform 0.2s ease-in-out;
+  font-size: 5vw;
+}
+
+nav a {
+  display: flex;
+  align-items: center; /* aligner le texte et l'icône au centre */
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 80px; /* augmenter la taille du texte et de l'icône */
+  transition: all 0.2s ease-in-out; /* ajouter la transition d'animation */
+  flex-grow: 1; /* permet aux éléments de s'étendre si nécessaire */
+}
+
+main {
+  position: relative;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.flex-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center; /* centre les éléments horizontalement */
+}
+
+.flex-container2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center; /* centre les éléments horizontalement */
+}
+
+.flex-box {
+  width: 760px;
+  height: 400px;
+  /*background: rgb(46, 64, 144);
+  background: linear-gradient(circle, rgba(46, 64, 144, 1) 0%, rgba(68, 85, 155, 1) 100%);*/
+  background-image: url("/public/img/techandall_wallpaper_1.jpg");
+  background-size: cover;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px;
+  color: aliceblue;
+  flex-grow: 1; /* permet aux éléments de s'étendre */
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+#heure{
+  font-family: 'Oswald', sans-serif;
+  margin-top: 30px;
+  font-size: 110px;
+}
+
+#date{
+  margin-top: 60px;
+  font-size: 30px;
+  
+}
+
+#DH{
+  font-size: 50px;
+  margin-top: 10px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.flex-box2 {
+  flex-direction: row;
+  width: 500px;
+  height: 500px;
+  background-image: url("/public/img/techandall_wallpaper_1.jpg");
+  background-size: cover;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px;
+  color: aliceblue;
+  line-height: 200px;
+  flex-grow: 1; /* permet aux éléments de s'étendre */
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+h1{
+  font-family: 'Tilt Neon', sans-serif;
+  color: aliceblue;
+  font-size: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.switch {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 34px;
+  margin-bottom: 10px;
+}
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #008b8b;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #017a7a;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
