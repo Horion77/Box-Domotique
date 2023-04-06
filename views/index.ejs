@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Till+Nanohana+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Home Control</title>
+  </head>
+  <body>
+    <header>
+    </header>
+    <nav>
+      <span class="material-symbols-outlined">
+        <a href="#">home</a>
+        </span>
+      <span class="material-symbols-outlined">
+        <a href="#">event</a>
+        </span>
+      <span class="material-symbols-outlined">
+        <a href="#">settings</a>
+        </span>
+      <span class="material-symbols-outlined">
+        <a href="#">history</a>
+        </span>
+    </nav>
+    
+    <main>
+      <h1 class="tilt-neon">HOME CONTROL</h1>
+      <div class="flex-container">
+        <div class = "flex-box">
+          <div id = "DH">DATE ET HEURE</div>
+          <div id = "date"></div>
+          <div id = "heure"></div>
+          
+        </div>
+
+        <div class = "flex-box">
+          METEO
+        </div>
+      </div>
+
+      <div class ="flex-container2"> 
+        <div class = "flex-box2">
+          <h2 class="titre-h2">LUMIERES</h2>
+          <div class="switch-container">
+          <label class="switch" id="switch-1">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <img id="bulb" class="bulb" src="/public/img/ampoule eteinte.png" alt="Ampoule">
+          </div>
+        </div>
+
+        <div class = "flex-box2">
+          <h2 class="titre-h2">PRISES ELECTRIQUES</h2>
+          <div class="switch-container">
+          <label class="switch" id="switch-2">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <img id="outlet" class="outlet" src="/public/img/prise-electrique off.png" alt="Prise">
+          </div>
+        </div>
+
+        <div class = "flex-box2">
+          Box5
+        </div>
+      </div>
+      <script src="/public/js/time.js"></script>
+      
+    </main>    
+    <script src="/public/js/switchs.js"></script>
+  </body>
+</html>
